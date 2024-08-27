@@ -85,18 +85,25 @@ const App = () => {
 
 
     return (
+        <>
         <BrowserRouter>
-            <Routes>
-                <Route path="/" element={
-                    <NavBer
+         <NavBer
                         menuItems={menuItems}
                         setMenuItems={setMenuItems}
                         data={data}
                     />
-                } />
+            <Routes>
+                {/* <Route path="/" element={
+                    <NavBer
+                    menuItems={menuItems}
+                    setMenuItems={setMenuItems}
+                    data={data}
+                    />
+                    } /> */}
                 <Route path="/manue" element={<Manue menuItems={menuItems} />} />
             </Routes>
         </BrowserRouter>
+                    </>
     );
 };
 
