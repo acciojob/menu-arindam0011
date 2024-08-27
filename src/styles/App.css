@@ -85,7 +85,7 @@
     background-color: rgb(236, 148, 17);
     margin-bottom: 15px;
 }
-.nav-item{
+ #filter-btn-1, #filter-btn-2, #filter-btn-3, #filter-btn-0{
     margin-right: 22px;
     font-weight: 20px;
     font-family: Arial, Helvetica, sans-serif;
