@@ -82,27 +82,27 @@ const App = () => {
 
   return (
     <>
-     <div id="header">
+     <nav id="header">
         <h1 id="title">Our Menu</h1>
         <div id="underline"></div>
-        <nav id="nav">
-          <span id="filter-btn-1" className='nav-item' data-test-id="menu-item-all"
+        <ul id="nav">
+          <li id="filter-btn-1" className='nav-item' data-test-id="menu-item-all"
             onClick={() => setMenuItems(data)}
-          >All</span>
+          >All</li>
 
-          <span id="filter-btn-2" className='nav-item' data-test-id="menu-item-breakfast"
+          <li id="filter-btn-2" className='nav-item' data-test-id="menu-item-breakfast"
             onClick={() => setMenuItems(data.filter(item => item.category === 'breakfast'))}
-          >Breakfast</span>
+          >Breakfast</li>
 
-          <span id="filter-btn-3" className='nav-item' data-test-id="menu-item-lunch"
+          <li id="filter-btn-3" className='nav-item' data-test-id="menu-item-lunch"
             onClick={() => setMenuItems(data.filter(item => item.category === 'lunch'))}
-          >Lunch</span>
+          >Lunch</li>
 
-          <span id="filter-btn-4" className='nav-item' data-test-id="menu-item-shakes"
+          <li id="filter-btn-4" className='nav-item' data-test-id="menu-item-shakes"
             onClick={() => setMenuItems(data.filter(item => item.category === 'shakes'))}
-          >Shakes</span>
-        </nav>
-      </div>
+          >Shakes</li>
+        </ul>
+      </nav>
 
       <div id="main">
         {

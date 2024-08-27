@@ -93,4 +93,11 @@
     color: rgb(236, 148, 17);
     font-weight: 600;
     cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+}
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding-left: 0; /* Remove default padding */
+    margin-left: 0;  /* Remove default margin */
 }
