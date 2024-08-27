@@ -6,7 +6,6 @@
 #main{
     width: 80vw;
     margin: auto;
-    height: 100vh;
     display: grid;
     grid-template-columns: 45% 45%;
     gap:30px;
@@ -57,4 +56,41 @@
     font-size: 18px;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        min-width: 100%;
+        height: 50px;
+        margin-bottom: 50px;
+}
+
+#nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+   min-width: 100%;
+   height: 50px;
+  
+}
+#underline{
+    width: 5%;
+    padding: 1px;
+    background-color: rgb(236, 148, 17);
+    margin-bottom: 15px;
+}
+.nav-item{
+    margin-right: 22px;
+    font-weight: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: rgb(236, 148, 17);
+    font-weight: 600;
+    cursor: pointer;
 }
