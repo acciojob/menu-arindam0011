@@ -82,7 +82,7 @@ const App = () => {
 
   return (
     <>
-      <div id="header">
+     <div id="header">
         <h1 id="title">Our Menu</h1>
         <div id="underline"></div>
         <nav id="nav">
